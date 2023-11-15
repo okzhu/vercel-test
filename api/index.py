@@ -13,7 +13,7 @@ def about():
 
 
 @app.route('/openai')
-def about():
+def openai():
     client = OpenAI()
     completion = client.chat.completions.create(
         model="gpt-3.5-turbo",
